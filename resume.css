@@ -1,0 +1,13 @@
+body {text-align: center and justify; 
+margin: auto; 
+width: 100%;
+padding: 50px; 
+font-family: 'times new roman'; 
+/* background: linear-gradient(#F3F8F2,#c2def0); */
+  /* background: linear-gradient(azure,#c2def0); */
+  /* background: linear-gradient(#eaf9fd,#fafee6); */
+  background-color: white;
+--nav-height: 50px;
+padding-top: var(--nav-height);
+font-size: medium;  
+}

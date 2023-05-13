@@ -1,0 +1,125 @@
+body {
+  text-align: center and justify; 
+  margin: auto; 
+  width: 860px;
+  padding: 50px; 
+  font-family: 'times new roman'; 
+  background: linear-gradient(#eaf9fd,#fafee6);
+  --nav-height: 50px;
+  padding-top: var(--nav-height);
+  font-size: medium;
+  }
+    
+  div {
+    display: flex;
+    justify-content: center;
+    } 
+    span{
+    
+      display: inline-block;
+      font-weight: bolder;
+      animation: mover 6s linear infinite;
+      font-size: 20px;
+      -webkit-animation-iteration-count: 1;
+    }
+    @keyframes mover{
+      0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+      40% {transform: translateY(-30px);} 
+      60% {transform: translateY(-15px);} 
+    
+      /* from {
+        transform : scale(1);
+        opacity   : 1;
+    }
+    50% {
+        transform : scale(0.75);
+        opacity   : 0.25;
+    }
+    to {
+        transform : scale(1);
+        opacity   : 1;
+    } */
+      }
+    span:nth-child(1) {
+      animation-delay: 0.10s;
+    }
+    
+    span:nth-child(2) {
+      animation-delay: 0.20s;
+    }
+    span:nth-child(3) {
+      animation-delay: 0.30s;
+    }
+    
+    
+    .hire {
+    
+      color: #244960;
+      text-align: center and justify;
+      font-family: 'times new roman bold'; 
+    
+    }
+    
+    .nav--hidden {
+      transform: translateY(calc(-1 * var(--nav-height)));
+      
+    
+    }
+    
+    li, a {
+      font-size: 16px;
+      color: #244960;
+      text-decoration: none;
+    }
+    
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 10%;
+    }
+    
+    nav {
+    
+      position: fixed;
+      top: 0;
+      padding-left: 130px;
+      width: 100%;
+      height: var(--nav-height);
+      transition: transform 0.2s;
+    }
+    
+    .navitem{
+    
+    list-style: none;
+    }
+    
+    .navitem ul {
+      margin:0;
+      padding:0
+    }
+    .navitem li {
+      display: inline-block;
+      padding: 0px 20px;
+    }
+    
+    .navitem li a {
+        transition: all 0.3s ease 0s;
+    }
+    
+    .navitem li a:hover{
+      transition: all 0.3s ease 0s;
+      color: #AF9164;
+    }
+    
+    
+    img#RMD{
+      width: 30%;
+      
+      
+    }
+    .name{
+      text-align: center and justify;
+      color: #244960;
+    }
+    
